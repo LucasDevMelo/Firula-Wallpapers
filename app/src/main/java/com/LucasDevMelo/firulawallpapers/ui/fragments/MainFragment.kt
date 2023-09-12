@@ -10,6 +10,10 @@ import com.LucasDevMelo.firulawallpapers.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
 
+
+    private val tabTitles = listOf("Início", "Popular", "Aleatório", "Categorias")
+    private val  fragment = listOf()
+
     private lateinit var binding: FragmentMainBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
